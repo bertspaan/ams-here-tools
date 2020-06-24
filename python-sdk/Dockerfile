@@ -84,7 +84,7 @@ RUN source activate olp-sdk-for-python-1.5-env\
     && jupyter serverextension enable --py sparkmagic \
     && sed -i -e 's/return self._pyspark_command(sql_context_variable_name)/return self._pyspark_command(sql_context_variable_name, False)/g' $(pip show sparkmagic | grep Location | cut -d" " -f2)/sparkmagic/livyclientlib/sqlquery.py \
     && rm -rf $(pip show sparkmagic | grep Location | cut -d" " -f2)/sparkmagic/livyclientlib/sqlquery.py-e \
-    && mkdir -p ~/.sparkmagic \ 
+    && mkdir -p ~/.sparkmagic \
     && chown -R here:here ~/.sparkmagic \
     && unzip spark-conf-files.zip \
     && cd spark-conf-files/ \
@@ -165,9 +165,17 @@ RUN chown -R here:here $HOME/.jupyter
 
 RUN source activate olp-sdk-for-python-1.5-env && emr-init
 
+#Install hmctools
+COPY --chown=here:here hmcpkg.zip $HOME/hmcpkg.zip
+RUN unzip hmcpkg.zip \
+    && source activate olp-sdk-for-python-1.5-env \
+    && cd hmcpkg \
+    && pip install PyGeodesy \
+    && pip install -e .
+
 RUN echo "root:root"
 
 # Create entrypoint shell file
-RUN echo "cd olp-sdk-for-python-1.5 && ~/livy/bin/livy-server start && source activate olp-sdk-for-python-1.5-env && jupyter notebook --NotebookApp.iopub_data_rate_limit=1000000000 --ip=0.0.0.0 --port=8080" > entrypoint.sh
+RUN echo "cd olp-sdk-for-python-1.5 && ~/livy/bin/livy-server start && source activate olp-sdk-for-python-1.5-env && jupyter notebook --NotebookApp.token='' --NotebookApp.iopub_data_rate_limit=1000000000 --ip=0.0.0.0 --port=8080" > entrypoint.sh
 
 CMD ["/bin/bash", "entrypoint.sh"]

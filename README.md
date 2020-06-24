@@ -8,9 +8,9 @@ To clone this repository locally, type:
 
 Some of the files used in this repository come from HERE's [SDK for Python Setup Guide](https://developer.here.com/documentation/sdk-python/dev_guide/topics/docker/home.html).
 
-The [Dockerfile](https://docs.docker.com/engine/reference/builder/) and the files required to build the Docker container are found in the [`docker`](docker) directory:
+The [Dockerfile](https://docs.docker.com/engine/reference/builder/) and the files required to build the Docker container are found in the [`python-sdk`](python-sdk) directory:
 
-    cd docker
+    cd python-sdk
 
 First, you need [three credentials files](https://developer.here.com/documentation/sdk-python/dev_guide/topics/credentials.html) from the HERE platform.
 
@@ -25,3 +25,7 @@ Then, build the Docker container:
 Run the Docker container:
 
     ./docker_run.sh
+
+Jupyter Notebook is now running on [http://localhost:8080/](http://localhost:8080/).
+
+Notebook files in the [`python-sdk/notebooks`](python-sdk/notebooks) directory will be available in http://localhost:8080/tree/host-notebooks.

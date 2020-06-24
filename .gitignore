@@ -1,5 +1,5 @@
-docker/credentials.properties
-docker/hls_credentials.properties
-docker/settings.xml
+python-sdk/credentials.properties
+python-sdk/hls_credentials.properties
+python-sdk/settings.xml
 
 old
