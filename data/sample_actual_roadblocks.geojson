@@ -1,1 +1,408 @@
-	cd projects/ams_here/ams-here-tools/data
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars",
+        "location": "Vijzelstraat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.893057346343994,
+            52.36611737134221
+          ],
+          [
+            4.893202185630798,
+            52.36669059526815
+          ],
+          [
+            4.893288016319275,
+            52.366847821102304
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars",
+        "location": "Vijzelstraat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.893202185630798,
+            52.366107544581496
+          ],
+          [
+            4.893341660499573,
+            52.366667666453935
+          ],
+          [
+            4.893454313278198,
+            52.3668838519438
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "all",
+        "location": "Hobbemakade"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.886105060577392,
+            52.35234465922599
+          ],
+          [
+            4.886137247085571,
+            52.35292789153703
+          ],
+          [
+            4.886153340339661,
+            52.35302946491668
+          ],
+          [
+            4.886335730552673,
+            52.35337677858021
+          ],
+          [
+            4.8863571882247925,
+            52.35395999727186
+          ],
+          [
+            4.886335730552673,
+            52.35456286693109
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "all",
+        "location": "Hobbemakade"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.886190891265869,
+            52.35234138261823
+          ],
+          [
+            4.886217713356018,
+            52.35293772122913
+          ],
+          [
+            4.886255264282227,
+            52.35303929458621
+          ],
+          [
+            4.88641083240509,
+            52.35338005511121
+          ],
+          [
+            4.886443018913269,
+            52.354048462356246
+          ],
+          [
+            4.88641619682312,
+            52.35457269625957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars and cyclists",
+        "location": "Frederik Hendrikstraat Zuid",
+        "road_type": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.871385097503662,
+            52.372756486328726
+          ],
+          [
+            4.872511625289917,
+            52.37453155174581
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Frederik Hendrikstraat Noord",
+        "blocked_for": "cars"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.872812032699585,
+            52.374917995645625
+          ],
+          [
+            4.875322580337524,
+            52.37876260077649
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars",
+        "location": "Paulusbroedersluis"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.896809756755829,
+            52.371541409645324
+          ],
+          [
+            4.8969921469688416,
+            52.371482456287524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars",
+        "location": "Paulusbroedersluis"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8967695236206055,
+            52.371505382602685
+          ],
+          [
+            4.896954596042633,
+            52.371443154005284
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars",
+        "location": "Vijzelstraat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.893057346343994,
+            52.36611737134221
+          ],
+          [
+            4.893202185630798,
+            52.36669059526815
+          ],
+          [
+            4.893288016319275,
+            52.366847821102304
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars",
+        "location": "Vijzelstraat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.893202185630798,
+            52.366107544581496
+          ],
+          [
+            4.893341660499573,
+            52.366667666453935
+          ],
+          [
+            4.893454313278198,
+            52.3668838519438
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "all",
+        "road_type": "",
+        "location": "Hobbemakade"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.886105060577392,
+            52.35234465922599
+          ],
+          [
+            4.886137247085571,
+            52.35292789153703
+          ],
+          [
+            4.886153340339661,
+            52.35302946491668
+          ],
+          [
+            4.886335730552673,
+            52.35337677858021
+          ],
+          [
+            4.8863571882247925,
+            52.35395999727186
+          ],
+          [
+            4.886335730552673,
+            52.35456286693109
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "all",
+        "location": "Hobbemakade"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.886190891265869,
+            52.35234138261823
+          ],
+          [
+            4.886217713356018,
+            52.35293772122913
+          ],
+          [
+            4.886255264282227,
+            52.35303929458621
+          ],
+          [
+            4.88641083240509,
+            52.35338005511121
+          ],
+          [
+            4.886443018913269,
+            52.354048462356246
+          ],
+          [
+            4.88641619682312,
+            52.35457269625957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars and cyclists",
+        "location": "Frederik Hendrikstraat Zuid",
+        "road_type": ""
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.871385097503662,
+            52.372756486328726
+          ],
+          [
+            4.872511625289917,
+            52.37453155174581
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "location": "Frederik Hendrikstraat Noord",
+        "blocked_for": "cars"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.872812032699585,
+            52.374917995645625
+          ],
+          [
+            4.875322580337524,
+            52.37876260077649
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars",
+        "location": "Paulusbroedersluis"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.896809756755829,
+            52.371541409645324
+          ],
+          [
+            4.8969921469688416,
+            52.371482456287524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "blocked_for": "cars",
+        "location": "Paulusbroedersluis"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8967695236206055,
+            52.371505382602685
+          ],
+          [
+            4.896954596042633,
+            52.371443154005284
+          ]
+        ]
+      }
+    }
+  ]
+}
