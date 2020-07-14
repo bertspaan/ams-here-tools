@@ -75,6 +75,7 @@ RUN source activate olp-sdk-for-python-1.5-env\
     && pip install --upgrade pip \
     && pip install --upgrade --ignore-installed setuptools \
     && pip install sparkmagic==0.12.7 ipyleaflet geomet \
+    && pip install nagini \
     && jupyter nbextension enable --py widgetsnbextension \
     && jupyter nbextension enable --py --sys-prefix ipyleaflet \
     && jupyter-kernelspec install $(pip show sparkmagic | grep Location | cut -d" " -f2)/sparkmagic/kernels/sparkkernel --user \
