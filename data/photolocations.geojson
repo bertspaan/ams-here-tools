@@ -1,1 +1,481 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"file_name":"sarphati_oost.jpg","heading":250},"geometry":{"type":"Point","coordinates":[4.9112735,52.3618982]}},{"type":"Feature","properties":{"file_name":"sarphati_west.jpg","heading":70},"geometry":{"type":"Point","coordinates":[4.9081353,52.361199]}},{"type":"Feature","properties":{"file_name":"hobbema_noord.jpg","heading":180},"geometry":{"type":"Point","coordinates":[4.8864322,52.3546488]}},{"type":"Feature","properties":{"file_name":"hobbema_zuid.jpg","heading":0},"geometry":{"type":"Point","coordinates":[4.8859719,52.3521792]}},{"type":"Feature","properties":{"file_name":"vossius_west.jpg","heading":70},"geometry":{"type":"Point","coordinates":[4.8771912,52.3601407]}},{"type":"Feature","properties":{"file_name":"vossius_oost.jpg","heading":250},"geometry":{"type":"Point","coordinates":[4.8823436,52.3615923]}},{"type":"Feature","properties":{"file_name":"heren_oost.jpg","heading":280},"geometry":{"type":"Point","coordinates":[4.8957969,52.3646586]}},{"type":"Feature","properties":{"file_name":"heren_west.jpg","heading":100},"geometry":{"type":"Point","coordinates":[4.8929204,52.365025]}},{"type":"Feature","properties":{"file_name":"vijzel_zuid.jpg","heading":5},"geometry":{"type":"Point","coordinates":[4.8931936,52.3660124]}},{"type":"Feature","properties":{"file_name":"keizers_zuid.jpg","heading":0},"geometry":{"type":"Point","coordinates":[4.8852414,52.3740602]}},{"type":"Feature","properties":{"file_name":"singel_zuid.jpg","heading":30},"geometry":{"type":"Point","coordinates":[4.8910582,52.3763452]}},{"type":"Feature","properties":{"file_name":"singel_noord.jpg","heading":210},"geometry":{"type":"Point","coordinates":[4.891192,52.3765422]}},{"type":"Feature","properties":{"file_name":"korteprinsen_zuid.jpg","heading":15},"geometry":{"type":"Point","coordinates":[4.889533,52.3813191]}},{"type":"Feature","properties":{"file_name":"korteprinsen_noord.jpg","heading":195},"geometry":{"type":"Point","coordinates":[4.8901228,52.3820831]}},{"type":"Feature","properties":{"file_name":"vijzel_noord.jpg","heading":185},"geometry":{"type":"Point","coordinates":[4.8933319,52.3668847]}},{"type":"Feature","properties":{"file_name":"keizers_noord.jpg","heading":200},"geometry":{"type":"Point","coordinates":[4.8862396,52.3753612]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "sarphati_east.jpg",
+        "heading": 250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9112735,
+          52.3618982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "sarphati_west.jpg",
+        "heading": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9081353,
+          52.361199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "hobbema_north.jpg",
+        "heading": 180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8865491,
+          52.3546785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "hobbema_east.jpg",
+        "heading": 270
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8871057,
+          52.3534971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "hobbema_south.jpg",
+        "heading": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.886207,
+          52.3523578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "vossius_west.jpg",
+        "heading": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8783777,
+          52.360398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "vossius_east.jpg",
+        "heading": 250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8791345,
+          52.3605857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "vijzel_south.jpg",
+        "heading": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8928369,
+          52.3653048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "singel_west.jpg",
+        "heading": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8910582,
+          52.3763452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "vijzel_north.jpg",
+        "heading": 185
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8934148,
+          52.3668102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "vijzel2_south.jpg",
+        "heading": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8909764,
+          52.3605748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "vijzel2_north.jpg",
+        "heading": 190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8914759,
+          52.362064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "vijzel_middle.jpg",
+        "heading": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8932193,
+          52.3660635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "jacob_east.jpg",
+        "heading": 250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8731319,
+          52.3656026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "jacob_west.jpg",
+        "heading": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.872147,
+          52.36539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "lijnbaan_south.jpg",
+        "heading": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.877428114414215,
+          52.370378703894886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "lijnbaan_north.jpg",
+        "heading": 170
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.877261817455292,
+          52.37060797224003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "heren_south.jpg",
+        "heading": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.890163242816925,
+          52.376876362740745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "heren_north.jpg",
+        "heading": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.892153441905975,
+          52.379114624127176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "huisbrug_south.jpg",
+        "heading": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.891602247953415,
+          52.37909170176185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "brouwers_east.jpg",
+        "heading": 285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8915740847587585,
+          52.37912444799438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "brouwers_west.jpg",
+        "heading": 105
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.890061318874359,
+          52.379478105758324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "haarlemmer.jpg",
+        "heading": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.891721606254578,
+          52.38033604152634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "brouwers_fareast.jpg",
+        "heading": 285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.893835186958313,
+          52.37895580463735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "singel_east.jpg",
+        "heading": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.891512393951416,
+          52.37621812529605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "paulus_west.jpg",
+        "heading": 290
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8970940709114075,
+          52.37142923443861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "paulus_east.jpg",
+        "heading": 110
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.896697103977203,
+          52.3715504164014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "oosterdoksstraat_west.jpg",
+        "heading": 90
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.907643198966979,
+          52.376525958954154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "oosterdoksstraat_east.jpg",
+        "heading": 270
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.908823370933533,
+          52.37649976042851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "oosterdokskade.jpg",
+        "heading": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.908753633499145,
+          52.375396133417695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "entrepot_west.jpg",
+        "heading": 120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.918699264526367,
+          52.368151463754835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "entrepot_east.jpg",
+        "heading": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.919788241386414,
+          52.36777478704098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "huisbrug_north.jpg",
+        "heading": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.890294000506401,
+          52.37976012942203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "file_name": "brouwers_north.jpg",
+        "heading": 110
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.890322834253311,
+          52.379756445525075
+        ]
+      }
+    }
+  ]
+}
