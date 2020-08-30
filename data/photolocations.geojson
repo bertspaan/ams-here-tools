@@ -94,8 +94,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.8791345,
-          52.3605857
+          4.879885,
+          52.360814
         ]
       }
     },
@@ -192,8 +192,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.8731319,
-          52.3656026
+          4.873094,
+          52.365651
         ]
       }
     },
@@ -318,8 +318,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.891721606254578,
-          52.38033604152634
+4.893148,  52.379794
         ]
       }
     },
@@ -453,7 +452,7 @@
       "type": "Feature",
       "properties": {
         "file_name": "huisbrug_north.jpg",
-        "heading": 20
+        "heading": 200
       },
       "geometry": {
         "type": "Point",
@@ -472,8 +471,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.890322834253311,
-          52.379756445525075
+4.892322, 52.37929
         ]
       }
     }
